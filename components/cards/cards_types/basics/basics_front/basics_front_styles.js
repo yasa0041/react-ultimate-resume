@@ -5,14 +5,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.styles = void 0;
 var styles = {
-  container: {
-    flexDirection: 'column'
-  },
-  location: {
-    width: '100%',
+  subTitle: {
     fontWeight: 500,
     fontSize: 32,
     paddingTop: 16
+  },
+  container: {
+    flexDirection: 'column'
   }
 };
 exports.styles = styles;

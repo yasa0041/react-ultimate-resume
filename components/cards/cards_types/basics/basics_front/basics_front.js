@@ -9,7 +9,7 @@ exports.BasicsFront = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _reactJss = require("react-jss");
+var _reactIntl = require("react-intl");
 
 var _center_content_container = require("../../../../commons/center_content_container/center_content_container");
 
@@ -22,6 +22,8 @@ var _profile_card_padding_front = require("../../../../commons/profile_card/prof
 var _profile_card_front_typography = require("../../../../commons/profile_card/profile_card_front_typography/profile_card_front_typography");
 
 var _use_card_side = require("../../../../commons/profile_card/profile_card_hooks/use_card_side");
+
+var _reactJss = require("react-jss");
 
 var _basics_front_styles = require("./basics_front_styles");
 
@@ -61,7 +63,7 @@ var BasicsFrontComponent = function BasicsFrontComponent(_ref) {
     level: "h4",
     component: "h3",
     customClasses: {
-      container: classes.location
+      container: classes.subTitle
     }
   }, "\uD83D\uDCCD ", data === null || data === void 0 ? void 0 : (_data$currentCity = data.currentCity) === null || _data$currentCity === void 0 ? void 0 : _data$currentCity.name)), _react.default.createElement(_profile_card_actions.ProfileCardActions, null, _react.default.createElement(_profile_card_button.ProfileCardButton, {
     onClick: handleButtonClick

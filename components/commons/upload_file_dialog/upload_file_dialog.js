@@ -11,10 +11,6 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _reactJss = require("react-jss");
 
-var _reactIntl = require("react-intl");
-
-var _ui = require("@wld/ui");
-
 var _core = require("@material-ui/core");
 
 var _dialog_title = require("../dialog/dialog_title/dialog_title");
@@ -44,13 +40,7 @@ var UploadFileDialogComponent = function UploadFileDialogComponent(_ref) {
     onClose: onClose
   }, _react.default.createElement(_dialog_title.DialogTitle, null, "Upload un fichier"), _react.default.createElement(_core.DialogContent, null, _react.default.createElement(_file_drop_zone.FileDropZone, {
     onDrop: onFilesUpload
-  })), _react.default.createElement(_core.DialogActions, null, _react.default.createElement(_ui.Button, {
-    size: "small",
-    onClick: onClose
-  }, _react.default.createElement(_reactIntl.FormattedMessage, {
-    id: "Main.lang.close",
-    defaultMessage: "Fermer"
-  }))));
+  })), _react.default.createElement(_core.DialogActions, null));
 };
 
 var UploadFileDialog = UploadFileDialogComponent;

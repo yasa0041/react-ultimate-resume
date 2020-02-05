@@ -9,8 +9,6 @@ exports.BasicsCardEditDialog = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _reactJss = require("react-jss");
-
 var _reactIntl = require("react-intl");
 
 var _formik = require("formik");
@@ -27,11 +25,13 @@ var _checkbox_group = require("../../../../commons/checkbox_field/checkbox_group
 
 var _location_field = require("../../../../commons/location_field/location_field");
 
-var _job_search_state = require("../../../../../utils/enums/job_serachstate/job_search_state");
+var _reactJss = require("react-jss");
+
+var _basic_card_edit_dialog_styles = require("./basic_card_edit_dialog_styles");
 
 var _select = require("../../../../commons/select/select");
 
-var _basic_card_edit_dialog_styles = require("./basic_card_edit_dialog_styles");
+var _job_search_state = require("../../../../../utils/enums/job_serachstate/job_search_state");
 
 var _job_search_state_translations = _interopRequireDefault(require("../../../../../utils/enums/job_serachstate/job_search_state_translations"));
 
@@ -89,8 +89,7 @@ var BasicsCardEditDialogContent = function BasicsCardEditDialogContent(_ref) {
     })
   }, _react.default.createElement(_location_field.LocationField, {
     value: currentCity === null || currentCity === void 0 ? void 0 : currentCity.name,
-    onLocationSelected: handleValueChange('currentCity'),
-    variant: "flat"
+    onLocationSelected: handleValueChange('currentCity')
   })), _react.default.createElement(_edit_dialog_field.EditDialogField, {
     error: errors.visaSponsorship,
     classes: {
