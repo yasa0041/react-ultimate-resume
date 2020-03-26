@@ -1,118 +1,147 @@
 {
+    "thank_you":"Resume source credit: https://github.com/welovedevs/react-ultimate-resume",
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
+        "name": "Yash Sapra",
+        "label": "Software Engineer",
         "picture": "",
-        "email": "john@gmail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "email": "yash.sapra@colorado.edu",
+        "phone": "(408) 528-4351",
+        "website": "https://www.linkedin.com/in/yashsapra/",
+        "summary": "Software Engineer with 3+ years of Full Time and Intern experience",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
+            "address": "undisclosed",
+            "postalCode": "CO 80303",
+            "city": "Boulder",
             "countryCode": "US",
-            "region": "California"
+            "region": "Colorado"
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+                "network": "linkedin",
+                "username": "yashsapra",
+                "url": "https://www.linkedin.com/in/yashsapra/"
             }
         ]
     },
     "work": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Citibank",
+            "position": "Software Engineer 2",
+            "website": "https://www.citivelocity.com/",
+            "startDate": "2016-06-01",
+            "summary": "Worked on a low latency Trading Application built with Java and Spring",
+            "location": "Toronto, Canada",
+            "highlights": ["Promoted within 1 year of joining", "Solely responsible for adding support of Europe Bonds and Swaps "]
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Salesforce",
+            "position": "Software Engineer Intern (Masters)",
+            "website": "https://developer.salesforce.com/platform/dx",
+            "startDate": "2019-05-20",
+            "endDate": "2014-08-15",
+            "summary": "Worked on a data ingestion pipeline to get insights into Salesforce AppExchange trends",
+            "location": "Louisville, Colorado",
+            "highlights": ["Succesfully deployed project with > 80% test coverage and CI/CD using Jenkins"]
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
+            "organization": "McMaster Outreach",
             "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "website": "http://outreach.mcmaster.ca/",
+            "endDate": "2016-01-01",
+            "summary": "Volunteer to teach coding to students in Middle school",
+            "highlights": []
         }
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "University of Colorado Boulder",
+            "area": "Big Data",
+            "studyType": "Masters",
+            "startDate": "2018-08-10",
+            "endDate": "2020-05-01",
+            "gpa": "3.8",
+            "courses": []
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Mcmaster University",
+            "area": "Computer Science",
+            "studyType": "Bachelors",
+            "startDate": "2011-08-01",
+            "endDate": "2016-05-01",
+            "gpa": "3.7",
+            "courses": []
         }
     ],
     "awards": [
         {
-            "title": "Award",
+            "title": "Summa cum laude",
             "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
+            "awarder": "McMaster University",
+            "summary": "CGPA > 3.7"
+        },
+        {
+            "title": "Quality excellence award",
+            "date": "2017-12-01",
+            "awarder": "Citibank",
+            "summary": "Awarded for excellent work and delivering the project on time"
         }
     ],
     "publications": [
         {
-            "name": "Publication",
-            "publisher": "Company",
+            "name": "Extracting Surface Geometry from Particle-Based Fracture Simulations",
+            "publisher": "Springer",
             "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "website": "https://link.springer.com/chapter/10.1007/978-3-319-27857-5_8",
+            "summary": "Undergraduate research work using CUDA and GPU"
         }
     ],
     "skills": [
         {
-            "name": "Reactaaa",
+            "name": "Backend API and Services",
             "level": "Master",
             "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["Microservices", "REST"]
         },
         {
-            "name": "Angular",
+            "name": "Public cloud (AWS/GCP)",
+            "level": "Master",
+            "value": 100,
+            "keywords": ["AWS", "GCP", "Heroku"]
+        },
+        {
+            "name": "Big Data (Kafka, Spark, Hadoop)",
+            "level": "Master",
+            "value": 100,
+            "keywords": ["Kafka", "Spark", "Hadoop"]
+        },
+        {
+            "name": "Java",
+            "level": "Master",
+            "value": 100,
+            "keywords": ["Spring"]
+        },
+        {
+            "name": "Python",
+            "level": "Master",
+            "value": 100,
+            "keywords": ["API", "Flask"]
+        },
+        {
+            "name": "SpringBoot",
             "level": "Master",
             "value": 80,
+            "keywords": ["IOC"]
+        },
+        {
+            "name": "Rails",
+            "level": "Master",
+            "value": 40,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "NodeJS",
+            "name": "SQL",
             "level": "Master",
             "value": 40,
             "keywords": ["HTML", "CSS", "Javascript"]
@@ -124,13 +153,13 @@
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Gmail",
+            "name": "CI/CD",
             "level": "Master",
-            "value": 20,
+            "value": 80,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "K8S",
+            "name": "MongoDB",
             "level": "Master",
             "value": 80,
             "keywords": ["HTML", "CSS", "Javascript"]
@@ -145,58 +174,54 @@
     ],
     "interests": [
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-        {
             "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif"
+            "gifUrl": "https://media.giphy.com/media/Y4pAQv58ETJgRwoLxj/giphy.gif"
         },
         {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+            "name": "Soccer",
+            "gifUrl": "https://media.giphy.com/media/dKdtyye7l5f44/giphy.gif"
         },
         {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
+            "name": "Programming",
+            "gifUrl": "https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif"
         },
         {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "name": "Reddit",
+            "gifUrl": "https://media.giphy.com/media/xT0xewM28Izq9Vxyxi/giphy.gif"
         }
     ],
     "references": [
         {
-            "name": "Jane Doe",
-            "reference": "Reference..."
+            "name": "Available upon request"
         }
     ],
     "projects": [
         {
-            "name": "Développement d'un serpent connecté",
-            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
+            "name": "Cybergardens",
+            "description": "Cybergardens is an IOT project that uses sensor and rails app to monitor sensor data in Google Sheets to better control the garden environment. This project is supported by NSF CAREER Award #​1562040 and a grant from Qualcomm.",
+            "images": []
+        },
+        {
+            "name": "StudyBuddy",
+            "description": "Find study buddy near you to learn together. Currently working on this app.",
             "images": []
         }
     ],
     "specific": {
         "basics": {
             "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "personalDescription": "I did my undergrad in Canada and lived there for 5 years. Worked on a low latency trading application at Citi. Built an ETL pipeline at Salesforce. Currently living in Boulder,CO with my 10 week GoldenDoodle."
         },
         "dreamJob": {
             "locations": [
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Valenciennes, France" }
+                { "name": "California or Colorado" },
+                { "name": "Los Angeles, California" },
+                { "name": "Paris, France" }
             ],
-            "remoteFrequency": "regularly"
+            "remoteFrequency": "Occasionally"
         },
         "currentJob": {
             "issues": {
-                "boring_management": true,
-                "boring_team": true
             }
         },
         "education": {
@@ -204,14 +229,14 @@
         },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
+            "codingYears": 4,
+            "codingReason": "Love to make stuff work",
             "searchState": "activelySearching",
-            "experienceYears": 9
+            "experienceYears": 3
         },
         "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "embedUrl": "https://open.spotify.com/playlist/1Tn6OrkJhOYO5u6y16erqB"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Java, Big Data, AWS, GCP"
     }
 }

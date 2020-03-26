@@ -35,14 +35,8 @@ function App() {
     const onCustomizationChanged = useCallback(setCustomization, [data]);
 
     const handleClick = useCallback(async () => {
-        // eslint-disable-next-line no-undef
-        const blob = new Blob([JSON.stringify(data)], {
-            type: 'text/plain; charset=utf-8'
-        });
         download(
-            blob,
-            `${`Resume-${data?.basics?.name || 'Developer'}`.replace(' ', '-')}.json`,
-            'text/plain; charset=utf-8'
+            'Yash_Sapra_Resume.pdf'
         );
     }, [JSON.stringify(data)]);
 
@@ -66,7 +60,7 @@ function App() {
             additionalNodes={{
                 banner: {
                     actionsButtons: mode === 'edit' && (
-                        <Button variant="outlined" onClick={handleClick} color={'light'}>
+                        <Button variant="outlined" download="logo512.png" onClick={handleClick} color={'light'}>
                             <SaveIcon className={classes.saveIcon} />
                             <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
                         </Button>
