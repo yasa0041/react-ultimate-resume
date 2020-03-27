@@ -60,9 +60,9 @@ function App() {
             additionalNodes={{
                 banner: {
                     actionsButtons: mode === 'edit' && (
-                        <Button variant="outlined" download="logo512.png" onClick={handleClick} color={'light'}>
+                        <Button variant="outlined" onClick={handleClick} color={'light'}>
                             <SaveIcon className={classes.saveIcon} />
-                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
+                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Resume" />
                         </Button>
                     )
                 }

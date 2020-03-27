@@ -20,7 +20,6 @@ import { useReceivedGlobalClasses } from '../hooks/use_received_global_classes';
 
 import { styles } from './banner_styles';
 import { useMode } from '../hooks/use_mode';
-import { EditButton } from './user_actions_row/edit_button/edit_button';
 
 const useStyles = createUseStyles(styles);
 
@@ -60,7 +59,6 @@ const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
                 <UserInformations />
                 <SocialActions>
                     {actionsButtons}
-                    {mode === 'edit' && <EditButton />}
                     {mode === 'edit' && <CustomizeButton customizationOptions={customizationOptions} />}
                 </SocialActions>
             </div>

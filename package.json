@@ -1,10 +1,11 @@
 {
     "name": "@wld/developer-profile",
     "version": "1.3.22",
+    "homepage" :"https://yasa0041.github.io/react-ultimate-resume/",
     "description": "Developer profile for W3D",
     "main": "lib/index.js",
     "scripts": {
-        "start": "react-scripts start",
+        "start": "touch .env.local && sh -ac 'sh .env.${NODE_ENV:-local}; PORT=${PORT:-3000} EXTEND_ESLINT=true BROWSER=none react-scripts start'",
         "dev": "yarn start",
         "eject": "react-scripts eject",
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +16,8 @@
         "build": "react-scripts build",
         "build:messages": "NODE_ENV=production babel ./src >/dev/null",
         "serve": "react-scripts build && serve build",
-        "manage:translations": "node ./translationRunner.js"
+        "manage:translations": "node ./translationRunner.js",
+	"gh-deploy" : "yarn build && gh-pages -d build"
     },
     "author": "",
     "license": "ISC",
@@ -46,7 +48,6 @@
         "react-infinite-scroller": "^1.2.4",
         "react-intl": "^3.9.3",
         "react-jss": "^10.0.4",
-	"react-scripts": "^3.4.1",
         "react-slick": "^0.25.2",
         "react-sortable-hoc": "^1.11.0",
         "react-spring": "9.0.0-beta.33",
@@ -81,6 +82,7 @@
         "lint-staged": "^10.0.8",
         "ora": "^4.0.3",
         "react-intl-translations-manager": "^5.0.3",
+        "react-scripts": "^3.4.1",
         "readline-sync": "^1.4.10",
         "rimraf": "^3.0.0",
         "serve": "^11.3.0"
