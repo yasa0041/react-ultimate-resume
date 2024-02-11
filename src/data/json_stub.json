@@ -7,7 +7,7 @@
         "email": "yash.sapra@colorado.edu",
         "phone": "(408) 528-4351",
         "website": "https://www.linkedin.com/in/yashsapra/",
-        "summary": "Software Engineer with 3+ years of Full Time and Intern experience",
+        "summary": "Software Engineer with 7+ years of Full Time and Intern experience",
         "location": {
             "address": "undisclosed",
             "postalCode": "CO 80303",
@@ -25,8 +25,18 @@
     },
     "work": [
         {
+            "name": "Salesforce",
+            "position": "Senior Software Engineer",
+            "website": "https://developer.salesforce.com/platform/dx",
+            "startDate": "2020-06-20",
+            "endDate": "present",
+            "summary": "Developed a large scale Observability platform using Java, Clojure, Elasticsearch and React",
+            "location": "Denver, Colorado",
+            "highlights": ["Succesfully introduced distributed collection to speed up collection by 40%"]
+        },
+        {
             "name": "Citibank",
-            "position": "Software Engineer 2",
+            "position": "Senior Software Engineer",
             "website": "https://www.citivelocity.com/",
             "startDate": "2016-06-01",
             "summary": "Worked on a low latency Trading Application built with Java and Spring",
@@ -229,10 +239,10 @@
         },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 4,
+            "codingYears": 8,
             "codingReason": "Love to make stuff work",
             "searchState": "activelySearching",
-            "experienceYears": 3
+            "experienceYears": 7
         },
         "sound": {
             "embedUrl": "https://open.spotify.com/playlist/1Tn6OrkJhOYO5u6y16erqB"
